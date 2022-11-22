@@ -23,6 +23,7 @@ python niadc_gui.py
 
 2. Set measurement setting.
     * The following settings are available.
+    
     | Name | Discription |
     | :--: | :-- |
     | device name | Device number. (it can be confirmed using NI MAX) |
