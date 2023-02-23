@@ -21,7 +21,7 @@ See https://knowledge.ni.com/KnowledgeArticleDetails?id=kA00Z0000019Pf1SAE&l=ja-
 python niadc_gui.py
 ```
 
-2. Set measurement setting.
+3. Set measurement setting and start measurement.
     * The following settings are available.
     
     | Name | Discription |
@@ -34,7 +34,4 @@ python niadc_gui.py
     | read samples | Number of data to be read at one time. |
     | max queue size | Size of the measurement thread queue. (default values are fine in most cases) |
 
-    * Press "update setting" button after modify measurement settings.
-
-3. Run measurements.
-    * Press "start" button to start measurement.
+    * Press "START MEASUREMENT" button after modify measurement settings.
