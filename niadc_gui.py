@@ -27,7 +27,7 @@ class Gui(QtWidgets.QWidget):
         'data_length': 10000,
         'sampling_rate': 1000,
         'read_samples': 100,
-        'save_file_dir': 'C:/Users/turn2/Documents/GSFS-CF/Experiments/data',
+        'save_file_dir': os.getcwd(),
         'save_file_name': 'measured_data',
     }
     COLORS = (  # Default color set.

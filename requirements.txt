@@ -3,4 +3,5 @@ pandas
 nidaqmx
 PySide6
 pyqtgraph
-qt_material
+qt-material
+nuitka

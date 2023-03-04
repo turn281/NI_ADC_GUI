@@ -1,7 +1,8 @@
 # NI_ADC_GUI
 GUI for analog signal measurement with NI's (National Instruments) AD Converter.
 
-## Requirements
+## For Contributors
+### Requirements
 * Python3 runtime environment
 * NI-DAQmx (Windows OS only)
 * packages
@@ -13,10 +14,10 @@ GUI for analog signal measurement with NI's (National Instruments) AD Converter.
 
 See https://knowledge.ni.com/KnowledgeArticleDetails?id=kA00Z0000019Pf1SAE&l=ja-JP
 
-## Run
+### Develop & Run
 1. Connect AD converter to PC via USB.
 
-2. Run application with the following command:
+2. Modify source code and run application with the following command:
 ```
 python niadc_gui.py
 ```
@@ -35,3 +36,9 @@ python niadc_gui.py
     | max queue size | Size of the measurement thread queue. (default values are fine in most cases) |
 
     * Press "START MEASUREMENT" button after modify measurement settings.
+
+### Compile
+You can create executable application using nuitka with following command.
+```
+python -m nuitka --onefile --plugin-enable=pyside6 --plugin-enable=numpy --include-package-data=qt_material niadc_gui.py
+```
